@@ -1,0 +1,32 @@
+{
+  "report_id": "RPT-2024-0115-001",
+  "patient_id": "PAT-001",
+  "generated_at": "2024-01-15T09:00:00Z",
+  "modality": "CT Scan — Chest (with contrast)",
+  "technologist": "R. Williams, RT(R)",
+  "radiologist": "Dr. Amara Diallo, MD, FRCR",
+  "clinical_history": "54-year-old female, ex-smoker (20 pack-years), presenting with mild chronic cough. Rule out pulmonary pathology.",
+  "findings": {
+    "primary": "A solid, non-calcified pulmonary nodule measuring 8 mm in its greatest dimension is identified in the right upper lobe (series 3, image 47). The nodule has spiculated margins. No internal cavitation or fat density is observed.",
+    "secondary": [
+      "Mild pleural thickening noted bilaterally, more prominent on the right.",
+      "No mediastinal or hilar lymphadenopathy detected.",
+      "No pleural effusion.",
+      "Airways appear patent. No bronchiectasis."
+    ],
+    "incidental": [
+      "Mild degenerative changes involving the thoracic spine (T6–T9), consistent with patient age.",
+      "Trace amount of pericardial fluid — likely physiological."
+    ]
+  },
+  "impression": "8 mm spiculated pulmonary nodule in the right upper lobe. Given the morphological characteristics and the patient's smoking history, this nodule warrants further evaluation per Fleischner Society guidelines. Recommend 3-month follow-up CT chest and pulmonology referral.",
+  "recommendations": [
+    "Follow-up CT chest with contrast in 3 months to assess nodule stability.",
+    "Pulmonology consultation recommended for specialist evaluation.",
+    "Consider PET-CT if nodule demonstrates growth or metabolic activity on follow-up.",
+    "Smoking cessation support if not already in progress.",
+    "Correlate clinically and discuss findings with treating physician."
+  ],
+  "risk_indicators": ["smoking_history", "spiculated_margins", "nodule_8mm", "upper_lobe_location"],
+  "urgency": "moderate"
+}

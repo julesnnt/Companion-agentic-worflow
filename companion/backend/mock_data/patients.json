@@ -1,0 +1,44 @@
+[
+  {
+    "patient_id": "PAT-001",
+    "name": "Sarah Mitchell",
+    "date_of_birth": "1970-03-22",
+    "age": 54,
+    "gender": "Female",
+    "contact": {
+      "email": "sarah.mitchell@email.com",
+      "phone": "+1-555-0142",
+      "address": "142 Oak Street, Portland, OR 97201"
+    },
+    "medical_history": {
+      "conditions": ["Hypertension (controlled)", "GERD", "Ex-smoker"],
+      "allergies": ["Penicillin"],
+      "current_medications": ["Omeprazole 20mg", "Atorvastatin 40mg", "Vitamin D3 1000 IU"],
+      "family_history": ["Father: Lung cancer at 68"]
+    },
+    "primary_physician": "Dr. Helen Park, MD",
+    "insurance": "BlueCross Shield Premium",
+    "risk_score": 7.2,
+    "last_checkin": "2024-01-15"
+  },
+  {
+    "patient_id": "PAT-002",
+    "name": "James Okonkwo",
+    "date_of_birth": "1962-07-11",
+    "age": 62,
+    "gender": "Male",
+    "contact": {
+      "email": "j.okonkwo@email.com",
+      "phone": "+1-555-0287"
+    },
+    "medical_history": {
+      "conditions": ["Type 2 Diabetes", "Hypertension", "Obesity"],
+      "allergies": [],
+      "current_medications": ["Metformin 1000mg", "Lisinopril 10mg", "Aspirin 81mg"]
+    },
+    "primary_physician": "Dr. Samuel Wright, MD",
+    "insurance": "Aetna Standard",
+    "risk_score": 5.8,
+    "last_checkin": "2024-01-14"
+  }
+]

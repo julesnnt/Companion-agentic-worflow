@@ -1,0 +1,39 @@
+{
+  "hospital": {
+    "name": "City General Hospital",
+    "department": "Oncology & Respiratory Care",
+    "stats": {
+      "total_monitored_patients": 6,
+      "high_risk": 2,
+      "medium_risk": 2,
+      "low_risk": 2,
+      "average_adherence_rate": 78.4,
+      "pending_appointments": 8,
+      "overdue_exams": 3
+    }
+  },
+  "upcoming_appointments": [
+    {
+      "patient_id": "PAT-001",
+      "patient_name": "Sarah Mitchell",
+      "specialist": "Pulmonology",
+      "provider": "Dr. Elena Vasquez",
+      "date": "2024-01-22",
+      "time": "09:00",
+      "status": "confirmed"
+    },
+    {
+      "patient_id": "PAT-002",
+      "patient_name": "James Okonkwo",
+      "specialist": "Endocrinology",
+      "provider": "Dr. Priya Mehta",
+      "date": "2024-01-24",
+      "time": "14:30",
+      "status": "pending"
+    }
+  ],
+  "no_show_risks": [
+    { "patient_id": "PAT-003", "reason": "3 missed check-ins", "risk_score": 0.72 },
+    { "patient_id": "PAT-004", "reason": "Overdue follow-up CT by 2 weeks", "risk_score": 0.55 }
+  ]
+}
