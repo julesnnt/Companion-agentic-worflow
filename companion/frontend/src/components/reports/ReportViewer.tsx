@@ -268,13 +268,13 @@ export default function ReportViewer() {
             {ph.sections.map((sec, i) => (
               <ClinicalSection key={i} heading={sec.heading} content={sec.content} />
             ))}
-            {report?.risk_indicators?.length > 0 && (
+            {(report?.risk_indicators?.length ?? 0) > 0 && (
               <div className="flex items-start gap-2 p-3 bg-amber-50 border border-amber-100 rounded-lg">
                 <AlertTriangle className="h-4 w-4 text-amber-500 flex-shrink-0 mt-0.5" />
                 <div>
                   <p className="text-xs font-semibold text-amber-700 mb-1.5">Risk Indicators</p>
                   <div className="flex flex-wrap gap-1.5">
-                    {report.risk_indicators.map((r, i) => (
+                    {report?.risk_indicators?.map((r, i) => (
                       <span key={i} className="inline-flex items-center gap-1 text-2xs bg-amber-100 text-amber-700 border border-amber-200 px-2 py-0.5 rounded-full">
                         <Tag className="h-2.5 w-2.5" />
                         {r.replace(/_/g, ' ')}

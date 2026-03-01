@@ -7,6 +7,7 @@ import { useState, useRef, useEffect } from 'react'
 import { Send, Loader2, RefreshCw, Sparkles } from 'lucide-react'
 import { useAppStore } from '../../store/appStore'
 import { sendChatMessage } from '../../services/api'
+import type { Persona } from '../../types'
 import MessageBubble from './MessageBubble'
 import { PersonaAvatar } from '../layout/Sidebar'
 import type { ChatMessage } from '../../types'
@@ -33,7 +34,7 @@ const WELCOME: Record<string, string> = {
 
 // ── Typing indicator ──────────────────────────────────────────────────────────
 
-function TypingIndicator({ persona }: { persona: ReturnType<typeof useAppStore>['currentPersona'] }) {
+function TypingIndicator({ persona }: { persona: Persona }) {
   return (
     <div className="flex items-start gap-3 px-6 py-3 animate-fadeIn">
       <PersonaAvatar persona={persona} size="sm" />
